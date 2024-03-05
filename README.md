@@ -15,6 +15,7 @@ in order to work you must run a reindex after the installation, because you need
 ```
 composer require marcomessa/module-out-of-stock-at-last
 
+bin/magento module:enable MarcoMessa_OutOfStockAtLast
 bin/magento setup:upgrade
 bin/magento setup:di:compile
 bin/magento index:reindex
