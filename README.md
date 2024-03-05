@@ -6,9 +6,9 @@ This module let you move out of stock products in last position of last pages in
 in order to work you must run a reindex after the installation, because you need to add stock infos in indexes.
 
 ## Requirements
+
 - Magento 2.4+
 - ElasticSearch
-
 
 ## Composer install
 
@@ -19,3 +19,7 @@ bin/magento setup:upgrade
 bin/magento setup:di:compile
 bin/magento index:reindex
 ```
+
+## Settings
+
+You can find the settings in the admin panel under Stores > Configuration > OUT OF STOCK AT LAST > Settings
