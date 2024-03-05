@@ -22,4 +22,4 @@ bin/magento index:reindex
 
 ## Settings
 
-You can find the settings in the admin panel under Stores > Configuration > OUT OF STOCK AT LAST > Settings
+You can find the settings in the admin panel under Stores > Configuration > Out of stock at last > Settings
